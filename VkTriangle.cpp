@@ -23,7 +23,7 @@ VkTriangle::VkTriangle() : VisualObject() {
     mVertices.push_back(v4);*/
 
 
-    //mVertices = genVertices1();
-    //mVertices = genVertices2();
-    mVertices = genVertices3(); //change RendererWindow.cpp 281 "topology" to line_list
+    // mVertices = genVertices();
+    // mVertices = genVertices2();
+     mVertices = genVertices3(); //change TOPOLOGY i RendererWindow.cpp 281 to line_list
 }
