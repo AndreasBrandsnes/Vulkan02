@@ -18,7 +18,7 @@ std::vector<Vertex> genVertices3(){
 
     std::vector<Vertex> vertices;
 
-    float xmin=0.0f, xmax=1.0f, ymin=0.0f, ymax=1.0f, h=0.01f;
+    float xmin=0.0f, xmax=1.0f, ymin=0.0f, ymax=1.0f, h=0.1f;
 
     for (auto x=xmin; x<xmax; x+=h)
     {
